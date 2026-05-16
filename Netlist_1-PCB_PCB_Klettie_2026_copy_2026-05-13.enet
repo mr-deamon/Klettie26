@@ -96,7 +96,7 @@
       "Convert to PCB": "yes"
     },
     "pins": {
-      "1": "VSW",
+      "1": "LED_VDD",
       "2": "GND"
     }
   },
@@ -163,7 +163,7 @@
       "Convert to PCB": "yes"
     },
     "pins": {
-      "1": "VSW",
+      "1": "LED_VDD",
       "2": "GND"
     }
   },
@@ -196,7 +196,7 @@
       "Convert to PCB": "yes"
     },
     "pins": {
-      "1": "VSW",
+      "1": "LED_VDD",
       "2": "GND"
     }
   },
@@ -298,7 +298,7 @@
       "Convert to PCB": "yes"
     },
     "pins": {
-      "1": "VSW",
+      "1": "LED_VDD",
       "2": "GND"
     }
   },
@@ -539,7 +539,7 @@
     },
     "pins": {
       "1": "3V3",
-      "2": "BOOT"
+      "2": "SD4"
     }
   },
   "ggedb402794e26961e3": {
@@ -783,7 +783,7 @@
   "gge8b3cddf2bcd9f1b9": {
     "props": {
       "Footprint": "bfd1960002084c6181c323f339321cdd",
-      "Designator": "SW2",
+      "Designator": "BTN",
       "Add into BOM": "yes",
       "Name": "TS-1187A-B-A-B",
       "Description": "",
@@ -818,7 +818,7 @@
   "gge08e18567897a3a49": {
     "props": {
       "Footprint": "bfd1960002084c6181c323f339321cdd",
-      "Designator": "SW3",
+      "Designator": "BOOT",
       "Add into BOM": "yes",
       "Name": "TS-1187A-B-A-B",
       "Description": "",
@@ -887,91 +887,7 @@
       "6": "",
       "7": "",
       "8": "V5V",
-      "9": ""
-    }
-  },
-  "ggeea48bdc94c875e89": {
-    "props": {
-      "Footprint": "c04f5bad6dc747929129ac833de87c95",
-      "Designator": "U2",
-      "Add into BOM": "yes",
-      "Name": "ESP32-C3-MINI-1-N4",
-      "Description": "",
-      "3D Model": "789e2235438340f8bef14c336f136f9e",
-      "3D Model Title": "WIFIM-SMD_ESP32-C3-MINI-1",
-      "Device": "0d2f838f65484cf9acf878c8339acbd5",
-      "Unique ID": "ggeea48bdc94c875e89",
-      "3D Model Transform": "519.684,653.542,0,0,0,0,0,106.891,0",
-      "spicePre": "U",
-      "spiceSymbolName": "ESP32-C3-MINI-1-N4",
-      "Contributor": "LCSC",
-      "Origin Footprint": "WIFIM-SMD_ESP32-C3-MINI-1",
-      "Supplier": "LCSC",
-      "Supplier Part": "C2838502",
-      "Manufacturer": "ESPRESSIF(乐鑫)",
-      "Manufacturer Part": "ESP32-C3-MINI-1-N4",
-      "JLCPCB Part Class": "Extended Part",
-      "FootprintName": "WIFIM-SMD_ESP32-C3-MINI-1",
-      "DeviceName": "ESP32-C3-MINI-1-N4",
-      "Group ID": "",
-      "Channel ID": "$1e159",
-      "Reuse Block": "",
-      "Convert to PCB": "yes"
-    },
-    "pins": {
-      "1": "GND",
-      "2": "",
-      "3": "3V3",
-      "4": "",
-      "5": "LED",
-      "6": "BTN",
-      "7": "",
-      "8": "ENP",
-      "9": "",
-      "10": "",
-      "11": "",
-      "12": "",
-      "13": "$1N30",
-      "14": "",
-      "15": "",
-      "16": "",
-      "17": "",
-      "18": "TRG",
-      "19": "",
-      "20": "",
-      "21": "",
-      "22": "SCL",
-      "23": "BOOT",
-      "24": "",
-      "25": "",
-      "26": "$1N29",
-      "27": "$1N27",
-      "28": "",
-      "29": "",
-      "30": "",
-      "31": "",
-      "32": "",
-      "33": "",
-      "34": "",
-      "35": "",
-      "36": "",
-      "37": "",
-      "38": "",
-      "39": "",
-      "40": "",
-      "41": "",
-      "42": "",
-      "43": "",
-      "44": "",
-      "45": "",
-      "46": "",
-      "47": "",
-      "48": "",
-      "49": "",
-      "50": "",
-      "51": "",
-      "52": "",
-      "53": ""
+      "9": "GND"
     }
   },
   "gge5be2d6821470353a": {
@@ -1004,7 +920,7 @@
     },
     "pins": {
       "1": "GND",
-      "2": "BOOT",
+      "2": "SD4",
       "3": "3V3",
       "4": "",
       "5": "TRG",
@@ -1128,7 +1044,7 @@
       "Convert to PCB": "yes"
     },
     "pins": {
-      "1": "VSW",
+      "1": "LED_VDD",
       "2": "NETPORT1",
       "3": "GND",
       "4": "$2N1472"
@@ -1162,7 +1078,7 @@
       "Convert to PCB": "yes"
     },
     "pins": {
-      "1": "VSW",
+      "1": "LED_VDD",
       "2": "$2N1472",
       "3": "GND",
       "4": "$2N1473"
@@ -1196,7 +1112,7 @@
       "Convert to PCB": "yes"
     },
     "pins": {
-      "1": "VSW",
+      "1": "LED_VDD",
       "2": "$2N1473",
       "3": "GND",
       "4": "$2N1474"
@@ -1230,7 +1146,7 @@
       "Convert to PCB": "yes"
     },
     "pins": {
-      "1": "VSW",
+      "1": "LED_VDD",
       "2": "$2N1474",
       "3": "GND",
       "4": "$2N1475"
@@ -1264,7 +1180,7 @@
       "Convert to PCB": "yes"
     },
     "pins": {
-      "1": "VSW",
+      "1": "LED_VDD",
       "2": "$2N1475",
       "3": "GND",
       "4": "$2N1476"
@@ -1298,7 +1214,7 @@
       "Convert to PCB": "yes"
     },
     "pins": {
-      "1": "VSW",
+      "1": "LED_VDD",
       "2": "$2N1476",
       "3": "GND",
       "4": "$2N1477"
@@ -1332,7 +1248,7 @@
       "Convert to PCB": "yes"
     },
     "pins": {
-      "1": "VSW",
+      "1": "LED_VDD",
       "2": "$2N1477",
       "3": "GND",
       "4": "$2N1478"
@@ -1366,7 +1282,7 @@
       "Convert to PCB": "yes"
     },
     "pins": {
-      "1": "VSW",
+      "1": "LED_VDD",
       "2": "$2N1478",
       "3": "GND",
       "4": "$2N1479"
@@ -1400,7 +1316,7 @@
       "Convert to PCB": "yes"
     },
     "pins": {
-      "1": "VSW",
+      "1": "LED_VDD",
       "2": "$2N1479",
       "3": "GND",
       "4": "$2N1480"
@@ -1434,7 +1350,7 @@
       "Convert to PCB": "yes"
     },
     "pins": {
-      "1": "VSW",
+      "1": "LED_VDD",
       "2": "$2N1480",
       "3": "GND",
       "4": "$2N27"
@@ -1468,7 +1384,7 @@
       "Convert to PCB": "yes"
     },
     "pins": {
-      "1": "VSW",
+      "1": "LED_VDD",
       "2": "$2N1481",
       "3": "GND",
       "4": "NETPORT1"
@@ -1502,7 +1418,7 @@
       "Convert to PCB": "yes"
     },
     "pins": {
-      "1": "VSW",
+      "1": "LED_VDD",
       "2": "$2N1482",
       "3": "GND",
       "4": "$2N1481"
@@ -1536,7 +1452,7 @@
       "Convert to PCB": "yes"
     },
     "pins": {
-      "1": "VSW",
+      "1": "LED_VDD",
       "2": "$2N1483",
       "3": "GND",
       "4": "$2N1482"
@@ -1570,7 +1486,7 @@
       "Convert to PCB": "yes"
     },
     "pins": {
-      "1": "VSW",
+      "1": "LED_VDD",
       "2": "$2N1484",
       "3": "GND",
       "4": "$2N1483"
@@ -1604,7 +1520,7 @@
       "Convert to PCB": "yes"
     },
     "pins": {
-      "1": "VSW",
+      "1": "LED_VDD",
       "2": "$2N1485",
       "3": "GND",
       "4": "$2N1484"
@@ -1638,7 +1554,7 @@
       "Convert to PCB": "yes"
     },
     "pins": {
-      "1": "VSW",
+      "1": "LED_VDD",
       "2": "$2N1486",
       "3": "GND",
       "4": "$2N1485"
@@ -1672,7 +1588,7 @@
       "Convert to PCB": "yes"
     },
     "pins": {
-      "1": "VSW",
+      "1": "LED_VDD",
       "2": "$2N1487",
       "3": "GND",
       "4": "$2N1486"
@@ -1706,7 +1622,7 @@
       "Convert to PCB": "yes"
     },
     "pins": {
-      "1": "VSW",
+      "1": "LED_VDD",
       "2": "$2N1488",
       "3": "GND",
       "4": "$2N1487"
@@ -1740,7 +1656,7 @@
       "Convert to PCB": "yes"
     },
     "pins": {
-      "1": "VSW",
+      "1": "LED_VDD",
       "2": "$2N1489",
       "3": "GND",
       "4": "$2N1488"
@@ -1774,7 +1690,7 @@
       "Convert to PCB": "yes"
     },
     "pins": {
-      "1": "VSW",
+      "1": "LED_VDD",
       "2": "NETPORT2",
       "3": "GND",
       "4": "$2N1489"
@@ -1808,7 +1724,7 @@
       "Convert to PCB": "yes"
     },
     "pins": {
-      "1": "VSW",
+      "1": "LED_VDD",
       "2": "$2N1490",
       "3": "GND",
       "4": "NETPORT2"
@@ -1842,7 +1758,7 @@
       "Convert to PCB": "yes"
     },
     "pins": {
-      "1": "VSW",
+      "1": "LED_VDD",
       "2": "$2N1491",
       "3": "GND",
       "4": "$2N1490"
@@ -1876,7 +1792,7 @@
       "Convert to PCB": "yes"
     },
     "pins": {
-      "1": "VSW",
+      "1": "LED_VDD",
       "2": "$2N1492",
       "3": "GND",
       "4": "$2N1491"
@@ -1910,7 +1826,7 @@
       "Convert to PCB": "yes"
     },
     "pins": {
-      "1": "VSW",
+      "1": "LED_VDD",
       "2": "$2N1493",
       "3": "GND",
       "4": "$2N1492"
@@ -1944,7 +1860,7 @@
       "Convert to PCB": "yes"
     },
     "pins": {
-      "1": "VSW",
+      "1": "LED_VDD",
       "2": "$2N1494",
       "3": "GND",
       "4": "$2N1493"
@@ -1978,7 +1894,7 @@
       "Convert to PCB": "yes"
     },
     "pins": {
-      "1": "VSW",
+      "1": "LED_VDD",
       "2": "$2N1495",
       "3": "GND",
       "4": "$2N1494"
@@ -2012,7 +1928,7 @@
       "Convert to PCB": "yes"
     },
     "pins": {
-      "1": "VSW",
+      "1": "LED_VDD",
       "2": "$2N1496",
       "3": "GND",
       "4": "$2N1495"
@@ -2046,7 +1962,7 @@
       "Convert to PCB": "yes"
     },
     "pins": {
-      "1": "VSW",
+      "1": "LED_VDD",
       "2": "$2N1497",
       "3": "GND",
       "4": "$2N1496"
@@ -2080,7 +1996,7 @@
       "Convert to PCB": "yes"
     },
     "pins": {
-      "1": "VSW",
+      "1": "LED_VDD",
       "2": "$2N1498",
       "3": "GND",
       "4": "$2N1497"
@@ -2114,7 +2030,7 @@
       "Convert to PCB": "yes"
     },
     "pins": {
-      "1": "VSW",
+      "1": "LED_VDD",
       "2": "NETPORT3",
       "3": "GND",
       "4": "$2N1498"
@@ -2148,7 +2064,7 @@
       "Convert to PCB": "yes"
     },
     "pins": {
-      "1": "VSW",
+      "1": "LED_VDD",
       "2": "$2N1499",
       "3": "GND",
       "4": "NETPORT3"
@@ -2182,7 +2098,7 @@
       "Convert to PCB": "yes"
     },
     "pins": {
-      "1": "VSW",
+      "1": "LED_VDD",
       "2": "$2N1500",
       "3": "GND",
       "4": "$2N1499"
@@ -2216,7 +2132,7 @@
       "Convert to PCB": "yes"
     },
     "pins": {
-      "1": "VSW",
+      "1": "LED_VDD",
       "2": "$2N1501",
       "3": "GND",
       "4": "$2N1500"
@@ -2250,7 +2166,7 @@
       "Convert to PCB": "yes"
     },
     "pins": {
-      "1": "VSW",
+      "1": "LED_VDD",
       "2": "$2N1502",
       "3": "GND",
       "4": "$2N1501"
@@ -2284,7 +2200,7 @@
       "Convert to PCB": "yes"
     },
     "pins": {
-      "1": "VSW",
+      "1": "LED_VDD",
       "2": "$2N1503",
       "3": "GND",
       "4": "$2N1502"
@@ -2318,7 +2234,7 @@
       "Convert to PCB": "yes"
     },
     "pins": {
-      "1": "VSW",
+      "1": "LED_VDD",
       "2": "$2N1504",
       "3": "GND",
       "4": "$2N1503"
@@ -2352,7 +2268,7 @@
       "Convert to PCB": "yes"
     },
     "pins": {
-      "1": "VSW",
+      "1": "LED_VDD",
       "2": "$2N1505",
       "3": "GND",
       "4": "$2N1504"
@@ -2386,7 +2302,7 @@
       "Convert to PCB": "yes"
     },
     "pins": {
-      "1": "VSW",
+      "1": "LED_VDD",
       "2": "$2N1506",
       "3": "GND",
       "4": "$2N1505"
@@ -2420,7 +2336,7 @@
       "Convert to PCB": "yes"
     },
     "pins": {
-      "1": "VSW",
+      "1": "LED_VDD",
       "2": "$2N1507",
       "3": "GND",
       "4": "$2N1506"
@@ -2454,7 +2370,7 @@
       "Convert to PCB": "yes"
     },
     "pins": {
-      "1": "VSW",
+      "1": "LED_VDD",
       "2": "NETPORT4",
       "3": "GND",
       "4": "$2N1507"
@@ -2488,7 +2404,7 @@
       "Convert to PCB": "yes"
     },
     "pins": {
-      "1": "VSW",
+      "1": "LED_VDD",
       "2": "$2N1508",
       "3": "GND",
       "4": "NETPORT4"
@@ -2522,7 +2438,7 @@
       "Convert to PCB": "yes"
     },
     "pins": {
-      "1": "VSW",
+      "1": "LED_VDD",
       "2": "$2N1509",
       "3": "GND",
       "4": "$2N1508"
@@ -2556,7 +2472,7 @@
       "Convert to PCB": "yes"
     },
     "pins": {
-      "1": "VSW",
+      "1": "LED_VDD",
       "2": "$2N1510",
       "3": "GND",
       "4": "$2N1509"
@@ -2590,7 +2506,7 @@
       "Convert to PCB": "yes"
     },
     "pins": {
-      "1": "VSW",
+      "1": "LED_VDD",
       "2": "$2N1511",
       "3": "GND",
       "4": "$2N1510"
@@ -2624,7 +2540,7 @@
       "Convert to PCB": "yes"
     },
     "pins": {
-      "1": "VSW",
+      "1": "LED_VDD",
       "2": "$2N1512",
       "3": "GND",
       "4": "$2N1511"
@@ -2658,7 +2574,7 @@
       "Convert to PCB": "yes"
     },
     "pins": {
-      "1": "VSW",
+      "1": "LED_VDD",
       "2": "$2N1513",
       "3": "GND",
       "4": "$2N1512"
@@ -2692,7 +2608,7 @@
       "Convert to PCB": "yes"
     },
     "pins": {
-      "1": "VSW",
+      "1": "LED_VDD",
       "2": "$2N1514",
       "3": "GND",
       "4": "$2N1513"
@@ -2726,7 +2642,7 @@
       "Convert to PCB": "yes"
     },
     "pins": {
-      "1": "VSW",
+      "1": "LED_VDD",
       "2": "$2N1515",
       "3": "GND",
       "4": "$2N1514"
@@ -2760,7 +2676,7 @@
       "Convert to PCB": "yes"
     },
     "pins": {
-      "1": "VSW",
+      "1": "LED_VDD",
       "2": "$2N1516",
       "3": "GND",
       "4": "$2N1515"
@@ -2794,7 +2710,7 @@
       "Convert to PCB": "yes"
     },
     "pins": {
-      "1": "VSW",
+      "1": "LED_VDD",
       "2": "NETPORT5",
       "3": "GND",
       "4": "$2N1516"
@@ -2828,7 +2744,7 @@
       "Convert to PCB": "yes"
     },
     "pins": {
-      "1": "VSW",
+      "1": "LED_VDD",
       "2": "$2N1517",
       "3": "GND",
       "4": "NETPORT5"
@@ -2862,7 +2778,7 @@
       "Convert to PCB": "yes"
     },
     "pins": {
-      "1": "VSW",
+      "1": "LED_VDD",
       "2": "$2N1518",
       "3": "GND",
       "4": "$2N1517"
@@ -2896,7 +2812,7 @@
       "Convert to PCB": "yes"
     },
     "pins": {
-      "1": "VSW",
+      "1": "LED_VDD",
       "2": "$2N1519",
       "3": "GND",
       "4": "$2N1518"
@@ -2930,7 +2846,7 @@
       "Convert to PCB": "yes"
     },
     "pins": {
-      "1": "VSW",
+      "1": "LED_VDD",
       "2": "$2N1520",
       "3": "GND",
       "4": "$2N1519"
@@ -2964,7 +2880,7 @@
       "Convert to PCB": "yes"
     },
     "pins": {
-      "1": "VSW",
+      "1": "LED_VDD",
       "2": "$2N1521",
       "3": "GND",
       "4": "$2N1520"
@@ -2998,7 +2914,7 @@
       "Convert to PCB": "yes"
     },
     "pins": {
-      "1": "VSW",
+      "1": "LED_VDD",
       "2": "$2N1522",
       "3": "GND",
       "4": "$2N1521"
@@ -3032,7 +2948,7 @@
       "Convert to PCB": "yes"
     },
     "pins": {
-      "1": "VSW",
+      "1": "LED_VDD",
       "2": "$2N1523",
       "3": "GND",
       "4": "$2N1522"
@@ -3066,7 +2982,7 @@
       "Convert to PCB": "yes"
     },
     "pins": {
-      "1": "VSW",
+      "1": "LED_VDD",
       "2": "$2N1524",
       "3": "GND",
       "4": "$2N1523"
@@ -3100,7 +3016,7 @@
       "Convert to PCB": "yes"
     },
     "pins": {
-      "1": "VSW",
+      "1": "LED_VDD",
       "2": "$2N1525",
       "3": "GND",
       "4": "$2N1524"
@@ -3134,7 +3050,7 @@
       "Convert to PCB": "yes"
     },
     "pins": {
-      "1": "VSW",
+      "1": "LED_VDD",
       "2": "NETPORT6",
       "3": "GND",
       "4": "$2N1525"
@@ -3168,7 +3084,7 @@
       "Convert to PCB": "yes"
     },
     "pins": {
-      "1": "VSW",
+      "1": "LED_VDD",
       "2": "$2N1526",
       "3": "GND",
       "4": "NETPORT6"
@@ -3202,7 +3118,7 @@
       "Convert to PCB": "yes"
     },
     "pins": {
-      "1": "VSW",
+      "1": "LED_VDD",
       "2": "$2N1527",
       "3": "GND",
       "4": "$2N1526"
@@ -3236,7 +3152,7 @@
       "Convert to PCB": "yes"
     },
     "pins": {
-      "1": "VSW",
+      "1": "LED_VDD",
       "2": "$2N1528",
       "3": "GND",
       "4": "$2N1527"
@@ -3270,7 +3186,7 @@
       "Convert to PCB": "yes"
     },
     "pins": {
-      "1": "VSW",
+      "1": "LED_VDD",
       "2": "",
       "3": "GND",
       "4": "$2N1528"
@@ -3305,7 +3221,7 @@
       "Convert to PCB": "yes"
     },
     "pins": {
-      "1": "VSW",
+      "1": "LED_VDD",
       "2": "GND"
     }
   },
@@ -3341,6 +3257,168 @@
     "pins": {
       "1": "GND",
       "2": "3V3"
+    }
+  },
+  "ggeea48bdc94c875e89": {
+    "props": {
+      "Footprint": "c04f5bad6dc747929129ac833de87c95",
+      "Designator": "U2",
+      "Supplier": "LCSC",
+      "Supplier Part": "C2838502",
+      "Manufacturer": "ESPRESSIF(乐鑫)",
+      "Manufacturer Part": "ESP32-C3-MINI-1-N4",
+      "JLCPCB Part Class": "Extended Part",
+      "Add into BOM": "yes",
+      "Name": "ESP32-C3-MINI-1-N4",
+      "Description": "",
+      "3D Model": "789e2235438340f8bef14c336f136f9e",
+      "3D Model Title": "WIFIM-SMD_ESP32-C3-MINI-1",
+      "Device": "0d2f838f65484cf9acf878c8339acbd5",
+      "Unique ID": "ggeea48bdc94c875e89",
+      "3D Model Transform": "",
+      "Origin Footprint": "WIFIM-SMD_ESP32-C3-MINI-1",
+      "Contributor": "LCSC",
+      "spicePre": "U",
+      "spiceSymbolName": "ESP32-C3-MINI-1-N4",
+      "FootprintName": "WIFIM-SMD_ESP32-C3-MINI-1",
+      "DeviceName": "ESP32-C3-MINI-1-N4",
+      "Group ID": "",
+      "Channel ID": "$1e159",
+      "Reuse Block": "",
+      "Convert to PCB": "yes"
+    },
+    "pins": {
+      "1": "GND",
+      "2": "",
+      "3": "3V3",
+      "4": "",
+      "5": "LED",
+      "6": "BTN",
+      "7": "",
+      "8": "ENP",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "$1N30",
+      "14": "",
+      "15": "",
+      "16": "SD4",
+      "17": "",
+      "18": "TRG",
+      "19": "",
+      "20": "SCL",
+      "21": "LED_PWR_EN",
+      "22": "",
+      "23": "BOOT",
+      "24": "",
+      "25": "",
+      "26": "$1N29",
+      "27": "$1N27",
+      "28": "",
+      "29": "",
+      "30": "",
+      "31": "",
+      "32": "",
+      "33": "",
+      "34": "",
+      "35": "",
+      "36": "",
+      "37": "",
+      "38": "",
+      "39": "",
+      "40": "",
+      "41": "",
+      "42": "",
+      "43": "",
+      "44": "",
+      "45": "",
+      "46": "",
+      "47": "",
+      "48": "",
+      "49": "",
+      "50": "",
+      "51": "",
+      "52": "",
+      "53": ""
+    }
+  },
+  "ggedb402794e26961e3_1": {
+    "props": {
+      "Footprint": "550810ba2a2c4a61ac79ca0e2a1a35f2",
+      "Designator": "R12",
+      "Supplier": "LCSC",
+      "Supplier Part": "C855887",
+      "Manufacturer": "YAGEO(国巨)",
+      "Manufacturer Part": "AT0603BRD074K7L",
+      "JLCPCB Part Class": "Extended Part",
+      "Add into BOM": "yes",
+      "Name": "4.7kΩ",
+      "Description": "",
+      "3D Model": "6bd5cd867e9542ebae21caaf5d2d4c4d",
+      "3D Model Title": "R0603",
+      "Device": "9bf089742b31485d81967cdb477f6ed8",
+      "Unique ID": "ggedb402794e26961e3_1",
+      "3D Model Transform": "",
+      "Origin Footprint": "R0603",
+      "nameAlias": "Value",
+      "Contributor": "lcsc",
+      "spicePre": "R",
+      "spiceSymbolName": "AT0603BRD074K7L",
+      "FootprintName": "R0603",
+      "DeviceName": "4.7kΩ",
+      "Group ID": "",
+      "Channel ID": "$1e2632",
+      "Reuse Block": "",
+      "Convert to PCB": "yes"
+    },
+    "pins": {
+      "1": "GND",
+      "2": "LED_PWR_EN"
+    }
+  },
+  "gge1": {
+    "props": {
+      "Footprint": "e147fec2ef104294ba6af291641b94fa",
+      "Designator": "U5",
+      "LCSC Part Name": "5.5V、2A、导通电阻的负载开关",
+      "Supplier Part": "C131941",
+      "Manufacturer": "TI(德州仪器)",
+      "Manufacturer Part": "TPS22918DBVR",
+      "Supplier Footprint": "SOT-23-6",
+      "JLCPCB Part Class": "Extended Part",
+      "Datasheet": "https://www.ti.com/cn/lit/gpn/tps22918",
+      "Supplier": "LCSC",
+      "Add into BOM": "yes",
+      "3D Model": "1370be37a17e44418ae52e2b4cc1f5e5",
+      "3D Model Title": "SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95",
+      "3D Model Transform": "110.73671,114.173,0,180,0,0,0.001,-0.003,0",
+      "Type": "Load Switch",
+      "Number of Channels": "1",
+      "Control Input Logic": "Active High",
+      "Voltage - Supply": "1V~5.5V",
+      "Maximum Continuous Current": "2A",
+      "RDS(on)": "53mΩ",
+      "Features": "Integrated charge pump；Output discharge function；Soft-start",
+      "Operating Temperature\t-": "-40℃~+105℃",
+      "Name": "TPS22918DBVR",
+      "Description": "Type:Load Switch Number of Channels:1 Control Input Logic:Active High Voltage - Supply:1V~5.5V Voltage - Supply:1V~5.5V Maximum Continuous Current:2A RDS(on):53mΩ Features:Integrated charge pump；Output discharge function；Soft-start Operating Temperature\t-",
+      "Device": "13e44d5e05f74fe291ccbc91aaa2702b",
+      "Unique ID": "gge1",
+      "FootprintName": "SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR",
+      "DeviceName": "TPS22918DBVR",
+      "Group ID": "",
+      "Channel ID": "$1e2450",
+      "Reuse Block": "",
+      "Convert to PCB": "yes"
+    },
+    "pins": {
+      "1": "VSW",
+      "2": "GND",
+      "3": "LED_PWR_EN",
+      "4": "",
+      "5": "",
+      "6": "LED_VDD"
     }
   }
 }
